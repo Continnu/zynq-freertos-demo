@@ -56,7 +56,7 @@ int main( void )
 {
 	const TickType_t x10seconds = pdMS_TO_TICKS( DELAY_10_SECONDS );
 
-	xil_printf( "Hello from Freertos example main GitHub\r\n" );
+	xil_printf( "Hello from Freertos example main\r\n" );
 
 #if ( configSUPPORT_STATIC_ALLOCATION == 0 ) /* Normal or standard use case */
 	/* Create the two tasks.  The Tx task is given a lower priority than the
