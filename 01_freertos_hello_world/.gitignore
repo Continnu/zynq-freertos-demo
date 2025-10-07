@@ -1,21 +1,44 @@
-# Ignore build output directory
-/build
-/export
+# Build output
+/build/
+/export/
+/Debug/
+/Release/
 
-# Ignore object files and dependent files
-.o
-.d
+# Object files and dependency files
+*.o
+*.d
 
-#Ignore logs folder and log files
-/logs
-.log
+# Log and temp files
+*.log
+*.jou
+*.str
+*.tmp
+*.swp
+*.swo
 
-#Ignore lock files
-.lock
+# Lock files
+*.lock
 
-.bin
-.pdi
+# Binary output files
+*.elf
+*.bin
+*.bit
+*.pdi
+*.mcs
+*.coe
+*.bif
+
+# Vitis / SDK metadata
 .vitisWorkspace.json
+/.metadata/
+/.settings/
+/.project
+/.cproject
+*.sdk
+*.Xil/
 
-_ide/logs
-_ide/.wsdata
+# IDE cache
+.ide/logs
+.ide/wsdata
+.cache/
+.clangd/
