@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]E:\02_Projects\02_Vitis_workspace\01_freertos_platform\export\01_freertos_platform\sw\boot\fsbl.elf
+	E:\02_Projects\02_Vitis_workspace\01_freertos_hello_world\_ide\bitstream\system_wrapper.bit
+	E:\02_Projects\02_Vitis_workspace\01_freertos_hello_world\build\01_freertos_hello_world.elf
+}

@@ -73,6 +73,8 @@ E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_p
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpm_counter.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpseudo_asm.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpseudo_asm_gcc.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xqspips.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xqspips_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xreg_cortexa9.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscugic.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscugic_hw.h
@@ -80,6 +82,9 @@ E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_p
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscutimer_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscuwdt.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscuwdt_hw.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps_core.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xstatus.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xtimer_config.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xttcps.h
@@ -162,6 +167,8 @@ E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_p
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpm_counter.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpseudo_asm.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpseudo_asm_gcc.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xqspips.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xqspips_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xreg_cortexa9.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscugic.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscugic_hw.h
@@ -169,6 +176,9 @@ E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_p
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscutimer_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscuwdt.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscuwdt_hw.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps_core.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xstatus.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xtimer_config.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xttcps.h
@@ -251,6 +261,8 @@ E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_p
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpm_counter.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpseudo_asm.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpseudo_asm_gcc.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xqspips.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xqspips_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xreg_cortexa9.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscugic.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscugic_hw.h
@@ -258,6 +270,9 @@ E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_p
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscutimer_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscuwdt.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscuwdt_hw.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps_core.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xstatus.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xtimer_config.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xttcps.h
@@ -340,6 +355,8 @@ E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_p
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpm_counter.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpseudo_asm.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xpseudo_asm_gcc.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xqspips.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xqspips_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xreg_cortexa9.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscugic.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscugic_hw.h
@@ -347,6 +364,9 @@ E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_p
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscutimer_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscuwdt.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xscuwdt_hw.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps_core.h
+E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xsdps_hw.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xstatus.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xtimer_config.h
 E:/02_Projects/02_Vitis_workspace/01_freertos_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/include/../include/xttcps.h

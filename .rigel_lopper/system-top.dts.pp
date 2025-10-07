@@ -1,10 +1,10 @@
-# 1 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\export\\01_freertos_platform\\hw\\sdt\\system-top.dts"
+# 1 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\hw\\sdt\\system-top.dts"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\export\\01_freertos_platform\\hw\\sdt\\system-top.dts"
+# 1 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\hw\\sdt\\system-top.dts"
 /dts-v1/;
-# 1 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\export\\01_freertos_platform\\hw\\sdt\\zynq-7000.dtsi" 1
-# 10 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\export\\01_freertos_platform\\hw\\sdt\\zynq-7000.dtsi"
+# 1 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\hw\\sdt\\zynq-7000.dtsi" 1
+# 10 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\hw\\sdt\\zynq-7000.dtsi"
 / {
  #address-cells = <1>;
  #size-cells = <1>;
@@ -585,8 +585,8 @@
   };
  };
 };
-# 3 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\export\\01_freertos_platform\\hw\\sdt\\system-top.dts" 2
-# 1 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\export\\01_freertos_platform\\hw\\sdt\\pcw.dtsi" 1
+# 3 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\hw\\sdt\\system-top.dts" 2
+# 1 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\hw\\sdt\\pcw.dtsi" 1
  &ps7_cortexa9_0 {
   xlnx,i-cache-size = <0x8000>;
   xlnx,d-cache-line-size = <20>;
@@ -701,6 +701,9 @@
    reg = <0xf800b000 0x1000>;
    xlnx,name = "ps7_afi_3";
   };
+  ps7_qspi_linear_0: ps7_qspi_linear@fc000000 {
+   reg = <0xfc000000 0x1000000>;
+  };
  };
  &uart0 {
   status = "okay";
@@ -711,6 +714,32 @@
   port-number = <0>;
   xlnx,uart-clk-freq-hz = <100000000>;
   xlnx,name = "ps7_uart_0";
+ };
+ &qspi {
+  xlnx,qspi-fbclk = <0>;
+  num-cs = <1>;
+  xlnx,qspi-clk-freq-hz = <200000000>;
+  xlnx,bus-width = <2>;
+  xlnx,ip-name = "ps7_qspi";
+  spi-rx-bus-width = <4>;
+  xlnx,connection-mode = <0>;
+  spi-tx-bus-width = <4>;
+  status = "okay";
+  xlnx,clock-freq = <200000000>;
+  xlnx,fb-clk = <0>;
+  xlnx,qspi-mode = <0>;
+  xlnx,name = "ps7_qspi_0";
+  xlnx,qspi-bus-width = <2>;
+  is-dual = <0>;
+ };
+ &sdhci0 {
+  xlnx,has-power = <0>;
+  status = "okay";
+  xlnx,ip-name = "ps7_sdio";
+  xlnx,sdio-clk-freq-hz = <100000000>;
+  xlnx,has-wp = <0>;
+  xlnx,has-cd = <1>;
+  xlnx,name = "ps7_sd_0";
  };
  &ttc0 {
   xlnx,ttc-clk2-freq-hz = <111111115>;
@@ -797,12 +826,19 @@
   fclk-enable = <0x0>;
   ps-clk-frequency = <33333333>;
  };
-# 4 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\export\\01_freertos_platform\\hw\\sdt\\system-top.dts" 2
+# 4 "E:\\02_Projects\\02_Vitis_workspace\\01_freertos_platform\\hw\\sdt\\system-top.dts" 2
 / {
  device_id = "7z020";
  slrcount = <1>;
  family = "Zynq";
  speed_grade = "2";
+ ps7_qspi_linear_0_memory: memory@fc000000 {
+  compatible = "xlnx,ps7-qspi-linear-1.00.a-memory";
+  xlnx,ip-name = "ps7_qspi_linear";
+  device_type = "memory";
+  memory_type = "linear_flash";
+  reg = <0xfc000000 0x1000000>;
+ };
  ps7_ddr_0_memory: memory@00100000 {
   compatible = "xlnx,ps7-ddr-1.00.a";
   xlnx,ip-name = "ps7_ddr";
@@ -829,6 +865,7 @@
  };
  aliases {
   serial0 = &uart0;
+  spi0 = &qspi;
   serial1 = &coresight;
  };
  cpus_a9: cpus-a9@0 {
@@ -854,9 +891,12 @@
          <0xf8f02000 &L2 0xf8f02000 0x1000>,
          <0xf800c000 &ps7_ocmc_0 0xf800c000 0x1000>,
          <0xf8891000 &ps7_pmu_0 0xf8891000 0x1000>,
+         <0xe000d000 &qspi 0xe000d000 0x1000>,
+         <0xfc000000 &ps7_qspi_linear_0_memory 0xfc000000 0x1000000>,
          <0xf8f00000 &ps7_scuc_0 0xf8f00000 0xfd>,
          <0xf8f00600 &scutimer 0xf8f00600 0x20>,
          <0xf8f00620 &scuwdt 0xf8f00620 0xe0>,
+         <0xe0100000 &sdhci0 0xe0100000 0x1000>,
          <0xf8000000 &slcr 0xf8000000 0x1000>,
          <0xf8001000 &ttc0 0xf8001000 0x1000>,
          <0xe0000000 &uart0 0xe0000000 0x1000>,
